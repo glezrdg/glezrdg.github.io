@@ -78,7 +78,7 @@ function Header({ children }) {
     <div>
       <header
         className={`flex items-center transition-all fixed z-10 h-[7vh] left-0 right-0 top-0 cursor-pointer ${
-          scrollNav ? "bg-white" : "bg-transparent"
+          scrollNav ? "bg-white shadow-md" : "bg-transparent"
         }`}
       >
         <nav
